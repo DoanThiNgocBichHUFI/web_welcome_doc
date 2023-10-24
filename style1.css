@@ -1,0 +1,72 @@
+@charset "utf-8";
+/* CSS Document */
+        #wrapper{
+            border: 1px solid black;
+            margin: 0px auto;
+            padding: 0
+        }
+        #banner{
+            margin: 0px;
+        padding: 0px;
+        }
+        #trai{
+            width: 490px;
+             height: 217px;
+             float: left;
+        }
+        #menu{
+            width: 490px;
+    height: 42px;
+    font-size: 12px;
+    background-image: url(images/Xanh2.JPG);
+        }
+
+        ul{
+            margin: 0px;
+    padding: 0px;
+        }
+        li{
+            float: left;
+            list-style: none;
+            position: relative;
+            padding: 15px 15px;
+            font-weight: bold;
+            color: white;
+        }
+        li a{
+            text-decoration: none;
+            color: #fff;
+        }
+        a:hover{
+            color: black;
+            text-decoration: none;
+        }
+        #welcome{
+            margin-top: 3px;
+            background-image: url(images/Xanh2.JPG);
+        }
+        #text{
+            color: #fff;
+            margin-left: 45px;
+            font-size: 10px;
+            background-image: url(images/Xanh2.JPG);
+            margin-left: 0px;
+        }
+        p{
+            margin-left: 35px;
+        }
+        #phai{
+            color: #fff;
+    margin-left: 45px;
+    font-size: 10px;
+        }
+        #content{
+            margin-left: 45px;
+        }
+        #footer{
+            padding-top: 20px;
+    height: 70px;
+    background-color: #ccc;
+    font-size: 10px;
+    text-align: center;
+        }
