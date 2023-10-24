@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" />
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://cdn.rawgit.com/PascaleBeier/bootstrap-validate/v2.2.0/dist/bootstrap-validate.js"></script>
+    <title>@ViewBag.Title</title>
+    
+</head>
+<body>
+    <div>
+        @RenderBody()
+        <div id="wrapper">
+            <div id="Header">
+                <div id="banner">
+                    <img src="/Asset/image/main.jpg">
+                </div>
+                <div id="head2">
+                    <div id="trai">
+                        <div id="menu">
+                            <ul>
+                                <li>@Html.ActionLink("Home page", "Home", "Home")</li>
+                                <li>@Html.ActionLink("About us", "About", "Home")</li>
+                                <li>@Html.ActionLink("Services", "Services", "Home")</li>
+                                <li><a href="/Home/Support">Support</a></li>
+                                <li><a href="#">Contact</a></li>
+                            </ul>
+                        </div>
+                        <div id="welcome">
+                            <img src="/Asset/image/welcome.jpg">
+                        </div>
+                        <div id="text">
+                            <p style="font-size: 10px;">
+                                <span style="font-weight: bold;">Hien thi tieu de cua van ban</span><br>
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita quas fuga debitis nisi impedit praesentium, repellat sint veniam totam, ex assumenda culpa incidunt hic magni ipsam mollitia deleniti fugiat saepe!
+                            </p>
+                        </div>
+                    </div>
+                    <div id="phai">
+                        <img src="/Asset/image/main-12.jpg">
+                    </div>
+                </div>
+                <div id="content">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum voluptates, id quibusdam sit dignissimos autem obcaecati similique laudantium esse sint deleniti ad deserunt molestiae nam sed accusamus fugiat quia hic.
+                </div>
+                <div id="footer">
+                    <a href="#">Home</a>|<a href="#">about us</a>|<a href="#">services</a>|
+                    <a href="#">new and event</a>|<a href="#">support</a>|<a href="#">contact</a>
+                    copyright
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
